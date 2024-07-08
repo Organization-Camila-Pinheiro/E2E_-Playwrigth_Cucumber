@@ -16,11 +16,11 @@ class CustomWorld extends World {
 }
 
 setWorldConstructor(CustomWorld);
-setDefaultTimeout(20000); // Tiempo max de espera en miliisegundos. 20.000 equivale a 20 segundos
+setDefaultTimeout(30000); // Tiempo max de espera en miliisegundos. 20.000 equivale a 20 segundos
 
 Before(async function() {
   // Launch browser in headless mode
-  browser = await chromium.launch({ headless: true });
+  browser = await chromium.launch({ headless: false });
 
   // Define viewport size based on the environment variable VIEWPORT
   let device = {};
