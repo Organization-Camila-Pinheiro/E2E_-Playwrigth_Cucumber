@@ -5,9 +5,9 @@ Feature: Buy a product
     When the costumer fills the username with "standard_user"
     And fills the password with "secret_sauce"
     And the costumer clicks on the login button
-    And the costumer add to cart "Sauce Labs Backpack"
+    And the costumer add to cart "Test.allTheThings() T-Shirt (Red)"
     And the costumer clicks on the cart button
-    Then the costumer see "Sauce Labs Backpack" in the shopping cart
+    Then the costumer see "Test.allTheThings() T-Shirt (Red)" in the shopping cart
     When the costumer clicks on the checkout button
     And  the costumer fills the first name with "Camila", the last name  with "Pinheiro" and de zip code with "1234"
     And the costumer clicks on the continue button

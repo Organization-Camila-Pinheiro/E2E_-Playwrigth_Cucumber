@@ -11,6 +11,6 @@ Feature: add a product in the shopping cart
     
   Examples:
   |addProduct              | productCart              |  
-  |Sauce Labs Backpack     | Sauce Labs Backpack      | 
+  |Sauce Labs Onesie       | Sauce Labs Onesie        | 
   |Sauce Labs Bike Light   | Sauce Labs Bike Light    | 
   |Sauce Labs Fleece Jacket| Sauce Labs Fleece Jacket | 
