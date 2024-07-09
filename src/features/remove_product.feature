@@ -1,6 +1,6 @@
 Feature: remove a product in the shopping cart
 
-  Scenario: remove one product in the shopping cart
+  Scenario: remove an existed product in the shopping cart
 
     Given the costumer is on Sauce Labs login page
     When the costumer fills the username with "standard_user"

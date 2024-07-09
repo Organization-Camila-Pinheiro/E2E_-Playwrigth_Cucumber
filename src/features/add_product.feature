@@ -1,6 +1,6 @@
 Feature: add a product in the shopping cart
 
-  Scenario: Add one product in the shopping cart
+  Scenario: Add one valible product in the shopping cart
     Given the costumer is on Sauce Labs login page
     When the costumer fills the username with "standard_user"
     And fills the password with "secret_sauce"
@@ -10,7 +10,7 @@ Feature: add a product in the shopping cart
     Then the costumer see "<productCart>" in the shopping cart
     
   Examples:
-  |addProduct         | productCart         |  
-  |Sauce Labs Backpack| Sauce Labs Backpack | 
-  |Sauce Labs Bike Light| Sauce Labs Bike Light | 
+  |addProduct              | productCart              |  
+  |Sauce Labs Backpack     | Sauce Labs Backpack      | 
+  |Sauce Labs Bike Light   | Sauce Labs Bike Light    | 
   |Sauce Labs Fleece Jacket| Sauce Labs Fleece Jacket | 

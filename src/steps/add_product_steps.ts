@@ -15,3 +15,4 @@ Then('the costumer see {string} in the shopping cart', async function (productCa
     await expect(this.page.getByText( productCart)).toBeVisible();
     
 })
+
