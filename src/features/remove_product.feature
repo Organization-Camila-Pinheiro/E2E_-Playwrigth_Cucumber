@@ -8,6 +8,7 @@ Feature: remove a product in the shopping cart
     And the costumer clicks on the login button
     And the costumer add to cart "Sauce Labs Backpack"
     And the costumer clicks on the cart button
+    And the costumer see "Sauce Labs Backpack" in the shopping cart
     And the costumer clicks on the remove button
-    Then the costumer should not see any product 
+    Then the costumer should not see "Sauce Labs Backpack" in the shopping cart
     

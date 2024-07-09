@@ -2,7 +2,7 @@ import {Given, When, Then } from '@cucumber/cucumber';
 import { expect } from 'playwright/test';
 
 
-Given('the costumer is on Sauce Labs login page',async function () {
+Given('the costumer is on Sauce Labs login page', async function () {
   await this.page.goto(this.URL);
 })
 
