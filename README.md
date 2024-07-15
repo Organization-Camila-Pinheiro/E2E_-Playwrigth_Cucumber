@@ -6,7 +6,12 @@
 E2e tests for https://www.saucedemo.com/ 
 
 Covered Features:
-- Visit Home Page
+- Login in Sauce Lab
+- Add a product in the cart
+- Remove a product in the cart
+- Product list ordered by name
+- Product list ordered by price
+- Buy a product
 
 
 - ## 💻 Pre-requisites
